@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calculator 1.1</title>
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+<div class="main">
+  <div class="calculatorBody">
+    <div id="title">
+      <p>Calculatron</p>
+      <p></p>
+    </div>
+    <div id="display">
+      <span id="displayLeft"></span>
+      <div id="displayRight">
+        <span id="topRow"><span class="notEntered" id="topNumber"></span><span id="operationHold"></span></span> <span class="notEntered" id="bottomRow"></span>
+      </div>
+    </div>
+    <div id="topButtons">
+      <div class="buttons" id="buttonsRow">
+        <button class="square allClear clearEntry" value="AC">AC</button> <button class="square clearEntry" value="CE">CE</button> <button class="square operation errorClear" value="÷">÷</button> <button class="square operation errorClear" value="x">x</button>
+      </div>
+      <div class="buttons" id="buttonsRow">
+        <button class="square number errorClear solvedClear" value="7">7</button> <button class="square number errorClear solvedClear" value="8">8</button> <button class="square number errorClear solvedClear" value="9">9</button> <button class="square operation errorClear" value="-">-</button>
+      </div>
+      <div class="buttons" id="buttonsRow">
+        <button class="square number errorClear solvedClear" value="4">4</button> <button class="square number errorClear solvedClear" value="5">5</button> <button class="square number errorClear solvedClear" value="6">6</button> <button class="square operation errorClear" value="+">+</button>
+      </div>
+    </div>
+    <div id="bottomButtons">
+      <div id="bottomCluster">
+        <div class="buttons" id="buttonsRow">
+          <button class="square number errorClear solvedClear" value="1">1</button> <button class="square number errorClear solvedClear" value="2">2</button> <button class="square number errorClear solvedClear" value="3">3</button>
+        </div>
+        <div class="buttons" id="buttonsRow">
+          <button class="wide errorClear solvedClear" id="zero" value="0">0</button> <button class="square notEntered errorClear solvedClear" id="period" value=".">.</button>
+        </div>
+      </div>
+      <div>
+        <div class="buttons" id="buttonsRow">
+          <button class="long errorClear" id="equals" value="=">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
